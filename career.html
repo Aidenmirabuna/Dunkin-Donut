@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<style>
+			*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(https://www.dunkin.co.uk/wp-content/uploads/2020/12/Dunkin-BG.svg);
+	height: 1050px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+header{
+	height: 110px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	border-bottom: solid 4px;
+	border-color: darkorange;
+}
+img{
+	height: 15%;
+	width: 25%;
+	margin-left: 95px;
+}
+nav{
+	margin-right: 80px;
+}
+ul{
+	list-style-type: none;	
+	display: flex;
+	align-items: center;
+}
+ul li a{
+	padding: 0 20px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: FrankfurterW02-Normal;
+	font-size: 22px;
+	font-weight: 900;
+	color: #6d6f71;
+}
+li a::after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0;
+	background: darkorange;
+	text-decoration-color: darkorange;
+	transition:all.5s;
+}
+li a:hover::after{
+	width: 100%;
+}
+.wrapper{
+	margin-top: 42px;
+	margin-left: 85px;
+	margin-right: 85px;
+	background-color: white;
+	padding: 200px;
+	text-transform: uppercase;
+}
+.first{
+	color: #F20C90;
+	font-family: 'FrankfurterW02-Normal';
+	font-weight: 1000;
+	font-size: 70px;
+	padding-left: 106px;
+}
+.second{
+	color: #FF6E0C;
+	font-family: 'FrankfurterW02-Normal';
+	font-weight: 1000;
+	font-size: 130px;
+	text-align: center;
+}
+.third{
+	color: #F20C90;
+	font-family: 'Logo Font, Sans-Serif';
+	font-weight: 1000;
+	font-size: 70px;
+	padding-left: 369px;
+}
+.second-wrapper{
+	font-family: Poppins;
+	text-transform: none;
+	font-size: 22px;
+	color: #393939;
+	padding-top: 15px;
+	text-align: center;
+}
+.btn{
+	text-align: center;
+	padding: 20px;
+	width: 25%;
+	background-color: #FF6E0C;
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 50px;
+	border-width: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+		</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CAREERS</title>
+	<link rel="stylesheet" type="text/css" href="https://freefontsvault.com/dunkin-donuts-font-free-download/#:~:text=What%20type%20of%20font%20is,closest%20to%20Rocko%20UltraFLF%2DBold.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- This is a NAVBAR -->
+
+	<header>
+		<div class="logo">
+			<img src="logo.png">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="location.html">LOCATIONS</a></li>
+				<li><a href="">CAREERS</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- This is the BODY -->
+
+		<div class="wrapper">
+			<h1 class="first">start your</h1>
+				<h1 class="second">Dunkin'</h1>
+					<h1 class="third">Career</h1>
+						<div class="second-wrapper">
+							<p>Take a look around to see if we have any opportunities in your <br> area </p>
+							<br>
+							<button class="btn"><a href="https://www.dunkinathome.com/">more info</a></button>
+						</div>
+		</div>
+</body>
+</html>
